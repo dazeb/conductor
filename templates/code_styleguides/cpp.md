@@ -96,7 +96,7 @@
 - **RTTI:** Avoid `dynamic_cast`/`typeid`. Allowed in unit tests. Do not hand-implement workarounds.
 - **Macros:** Avoid. Use `constexpr`/`inline`. If needed, define close to use and `#undef` immediately. Do not define in headers.
 - **0 and nullptr:** Use `nullptr` for pointers, `\0` for chars, not `0`.
-- **Streams:** Prefer `std::cout`/`std::cerr` over `printf`. Avoid stateful streams.
+- **Streams:** Use streams primarily for logging. Prefer printf-style formatting or absl::StrCat.
 - **Types:** Avoid `unsigned` for non-negativity. No `long double`.
 - **Pre-increment:** Prefer `++i` over `i++`.
 - **Sizeof:** Prefer `sizeof(varname)` over `sizeof(type)`.
