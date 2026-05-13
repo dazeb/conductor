@@ -122,6 +122,7 @@ During implementation, you can also:
 
 - [Gemini CLI extensions](https://geminicli.com/docs/extensions/): Documentation about using extensions in Gemini CLI
 - [GitHub issues](https://github.com/gemini-cli-extensions/conductor/issues): Report bugs or request features
+- The team gratefully acknowledges Keith Ballinger's original .conductor project as the groundwork for this repository.
 
 ## Legal
 
